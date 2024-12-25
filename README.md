@@ -25,9 +25,11 @@ This program is designed to analyze sales data from a CSV file and answer key qu
     ```
 3. **Install the required Python packages**:
     ```sh
-    pip install pandas
+    import pandas as pd
+    import os
+    import seaborn as sns
+    import matplotlib.pyplot as plt
     ```
-
 ### Usage
 1. **Place your CSV file in the project directory** and ensure it is named `Sales Data.csv`.
 
